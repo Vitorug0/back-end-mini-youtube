@@ -1,0 +1,8 @@
+﻿{
+    "name": "youtube-basico",
+    "version": "1.0.0",
+    "main": "app.js",
+    "dependencies": {
+        "mongoose": "^8.0.0"
+    }
+}
