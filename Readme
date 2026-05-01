@@ -1,0 +1,25 @@
+# Back-end Mini YouTube
+
+Projeto acadêmico desenvolvido para a disciplina de Back-end, com o objetivo de simular as funcionalidades básicas de uma plataforma de vídeos, similar ao YouTube.
+
+## Integrantes
+
+| Vitor Hugo Gomes Melin | 2350556 |
+| Vithoria Cabreira | 2410400 |
+
+## Sobre o projeto
+
+O sistema permite o gerenciamento de vídeos por meio de um back-end desenvolvido com Node.js e MongoDB. Foram criadas três coleções no banco de dados, Vídeo, Usuário e Categoria, e implementadas as operações de criação, listagem, busca por título e deleção de vídeos.
+
+## Tecnologias utilizadas
+
+- Node.js
+- MongoDB
+- Mongoose
+
+## Funcionalidades
+
+- Criar vídeo
+- Listar todos os vídeos
+- Buscar vídeos por título
+- Deletar vídeo
