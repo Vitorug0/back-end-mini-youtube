@@ -1,6 +1,6 @@
 # Back-end Mini YouTube
 
-Projeto acadêmico desenvolvido para a disciplina de Back-end, com o objetivo de simular as funcionalidades básicas de uma plataforma de vídeos, similar ao YouTube.
+Projeto acadêmico desenvolvido para a disciplina de Programação Web Back-End, com o objetivo de simular as funcionalidades básicas de uma plataforma de vídeos, similar ao YouTube.
 
 ## Integrantes
 
@@ -9,17 +9,39 @@ Projeto acadêmico desenvolvido para a disciplina de Back-end, com o objetivo de
 
 ## Sobre o projeto
 
-O sistema permite o gerenciamento de vídeos por meio de um back-end desenvolvido com Node.js e MongoDB. Foram criadas três coleções no banco de dados, Vídeo, Usuário e Categoria, e implementadas as operações de criação, listagem, busca por título e deleção de vídeos.
+O sistema permite o gerenciamento de vídeos por meio de uma API REST desenvolvida com Node.js, Express.js e MongoDB. Foram criadas três coleções no banco de dados — Vídeo, Usuário e Categoria — e implementadas rotas para cadastro e autenticação de usuários, além das operações de criação, listagem, busca e exclusão de vídeos e categorias.
 
 ## Tecnologias utilizadas
 
 - Node.js
+- Express.js
+- express-session
 - MongoDB
 - Mongoose
 
+## Como executar
+
+1. Instalar as dependências:
+```
+npm install
+```
+
+2. Certifique-se de que o MongoDB está rodando localmente na porta 27017.
+
+3. Iniciar o servidor:
+```
+node server.js
+```
+
+O servidor ficará disponível em http://localhost:3000
+
 ## Funcionalidades
 
+- Cadastro de usuário
+- Login e logout com sessão
 - Criar vídeo
 - Listar todos os vídeos
 - Buscar vídeos por título
+- Atualizar vídeo
 - Deletar vídeo
+- Criar e listar categorias
