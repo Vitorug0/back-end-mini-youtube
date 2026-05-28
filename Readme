@@ -9,7 +9,7 @@ Projeto acadêmico desenvolvido para a disciplina de Programação Web Back-End,
 
 ## Sobre o projeto
 
-O sistema permite o gerenciamento de vídeos por meio de uma API REST desenvolvida com Node.js, Express.js e MongoDB. Foram criadas três coleções no banco de dados — Vídeo, Usuário e Categoria — e implementadas rotas para cadastro e autenticação de usuários, além das operações de criação, listagem, busca e exclusão de vídeos e categorias.
+O sistema permite o gerenciamento de vídeos por meio de uma API REST desenvolvida com Node.js, Express.js e MongoDB. Foram criadas três coleções no banco de dados: Video, Usuario e Categoria. Foram implementadas rotas para cadastro e autenticação de usuários, além das operações de criação, listagem, busca e exclusão de vídeos e categorias.
 
 ## Tecnologias utilizadas
 
